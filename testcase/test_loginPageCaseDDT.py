@@ -16,7 +16,7 @@ test_data = get_excel_data(FilePath, SheetName)
 class TestLogin(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.url = "http://1.117.169.63/myapps/login.html"
+        cls.url = "http://162.14.102.93:8080/htmlLearn/css/login.html"
         cls.driver = webdriver.Chrome()
         cls.log = Log()
         # cls.driver.implicitly_wait(10)
