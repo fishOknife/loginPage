@@ -10,7 +10,7 @@ FilePath = sys.path[1] + r"\testData\testData.xlsx"
 print(FilePath)
 SheetName = "登录"
 test_data = get_excel_data(FilePath, SheetName)
-print("准备的测试数据：", test_data)
+# print("准备的测试数据：", test_data)
 
 
 @ddt
